@@ -1,0 +1,9 @@
+com\tirebuyer\pages\ResultsPage.class
+com\tirebuyer\pages\CheckoutPage.class
+com\tirebuyer\tests\CheckoutTest.class
+com\tirebuyer\pages\CartPage.class
+com\tirebuyer\pages\HomePage.class
+com\tirebuyer\automation\PropertiesReader.class
+com\tirebuyer\automation\GenericMethods.class
+com\tirebuyer\pages\PaypalPage.class
+com\tirebuyer\pages\ProductPage.class

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression]">
+  <test name="tirebuyer">
+    <packages>
+      <package name="com.tirebuyer.tests"/>
+    </packages>
+    <classes>
+      <class name="com.tirebuyer.tests.CheckoutTest"/>
+    </classes>
+  </test> <!-- tirebuyer -->
+  <test name="tirebuyer(failed)">
+    <classes>
+      <class name="com.tirebuyer.tests.CheckoutTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="checkOutTest"/>
+        </methods>
+      </class> <!-- com.tirebuyer.tests.CheckoutTest -->
+    </classes>
+  </test> <!-- tirebuyer(failed) -->
+</suite> <!-- Failed suite [Regression] -->

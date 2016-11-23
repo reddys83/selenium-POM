@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="64714" started-at="2016-08-15T01:59:14Z" finished-at="2016-08-15T02:00:19Z">
+    <groups>
+    </groups>
+    <test name="tirebuyer" duration-ms="64714" started-at="2016-08-15T01:59:14Z" finished-at="2016-08-15T02:00:19Z">
+      <class name="com.tirebuyer.tests.CheckoutTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.tirebuyer.tests.CheckoutTest@42d3bd8b]" name="setupDriver" is-config="true" duration-ms="13370" started-at="2016-08-14T20:59:01Z" finished-at="2016-08-14T20:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="checkOutTest()[pri:0, instance:com.tirebuyer.tests.CheckoutTest@42d3bd8b]" name="checkOutTest" duration-ms="64699" started-at="2016-08-14T20:59:14Z" finished-at="2016-08-14T21:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tirebuyer.tests.CheckoutTest@42d3bd8b]" name="teardown" is-config="true" duration-ms="1271" started-at="2016-08-14T21:00:19Z" finished-at="2016-08-14T21:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tirebuyer.tests.CheckoutTest -->
+    </test> <!-- tirebuyer -->
+  </suite> <!-- Regression -->
+</testng-results>
